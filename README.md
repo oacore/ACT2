@@ -1,6 +1,6 @@
 # ACT2
-This repository contains the ACT2 multi-disciplinary citation classification dataset published in 
-(S.N. Kunnath et al., 2022).
+This repository contains the ACT2 multi-disciplinary citation classification dataset published in
+(S.N. Kunnath et al., submitted to LREC2022).
 ### Data
 The released data comprises 
 - the main dataset `ACT2_dataset.tsv`.
@@ -29,7 +29,7 @@ co_mentions
 citation_class_label
 citation_influence_label
 ```
-For descriptions of each feature, see (S.N. Kunnath et al., 2022).
+For descriptions of each feature, see (S.N. Kunnath et al., submitted to LREC2022).
 ### How to Load
 #### Python
 ```python
@@ -39,15 +39,4 @@ dataset = pandas.read_csv("path/to/ACT2_dataset.tsv", sep="\t", index_col="uniqu
 #### R
 ```
 dataset <- read.table(file="path/to/ACT2_dataset.tsv", sep="\t", header=TRUE)
-```
-## Reference
-If you use this dataset, please cite the following paper (S.N. Kunnath et al., 2022)
-```
-@inproceedings{Kunnath2022,
-  title={ACT2: A multi-disciplinary semi-structured dataset for importance and purpose classification of citations},
-  author={S.N. Kunnath, V. Stauber, R. Wu, D. Pride, V. Botev and P. Knoth},
-  booktitle={Proceedings of the 13th International Conference on Language Resources and Evaluation (LREC'22)},
-  year={2020},  
-  publisher={European Language Resource Association (ELRA)},
-}
 ```
