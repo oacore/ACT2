@@ -1,6 +1,6 @@
 # ACT2
 This repository contains the ACT2 multi-disciplinary citation classification dataset published in
-(S.N. Kunnath et al., submitted to LREC2022).
+(S.N. Kunnath et al., in preparation).
 ### Data
 The released data comprises 
 - the main dataset `ACT2_dataset.tsv`.
@@ -29,7 +29,7 @@ co_mentions
 citation_class_label
 citation_influence_label
 ```
-For descriptions of each feature, see (S.N. Kunnath et al., submitted to LREC2022).
+For descriptions of each feature, see (S.N. Kunnath et al., in preparation).
 ### How to Load
 #### Python
 ```python
