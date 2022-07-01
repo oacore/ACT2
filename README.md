@@ -29,7 +29,7 @@ co_mentions
 citation_class_label
 citation_influence_label
 ```
-For descriptions of each feature, see (S.N. Kunnath et al., in preparation).
+For descriptions of each feature, see [paper](http://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.363.pdf).
 ### How to Load
 #### Python
 ```python
@@ -40,7 +40,7 @@ dataset = pandas.read_csv("path/to/ACT2_dataset.tsv", sep="\t", index_col="uniqu
 ```
 dataset <- read.table(file="path/to/ACT2_dataset.tsv", sep="\t", header=TRUE)
 ```
-#### Citation
+### Citation
 ```
 @InProceedings{nambanoorkunnath-EtAl:2022:LREC,
   author    = {Nambanoor Kunnath, Suchetha  and  Stauber, Valentin  and  Wu, Ronin  and  Pride, David  and  Botev, Viktor  and  Knoth, Petr},
