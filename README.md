@@ -1,7 +1,6 @@
-# ACT2
-This repository contains the ACT2 multi-disciplinary citation classification dataset published in
-(S.N. Kunnath et al., in preparation).
-### Data
+# ACT2 (LREC2022)
+This repository contains the ACT2 multi-disciplinary citation classification dataset ([paper](http://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.363.pdf)).
+
 The released data comprises 
 - the main dataset `ACT2_dataset.tsv`.
 - the 229 pdfs containing the 4000 citations from the datset (`pdf` folder)
